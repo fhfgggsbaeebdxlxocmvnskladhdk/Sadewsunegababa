@@ -9,8 +9,8 @@ import pino from 'pino';
 import readline from 'readline';
 import express from 'express';
 import { config } from './config.js';
-import { initAsithaSession } from './lib/session.js';
-import { handleIncomingMessage } from './lib/messageHandler.js';
+import { initAsithaSession } from './Lib/session.js';
+import { handleIncomingMessage } from './Lib/messageHandler.js';
 
 // 🌐 24/7 Hosting Web Server (GitHub Actions / Heroku / Koyeb / Render Keep-Alive)
 const app = express();
