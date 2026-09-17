@@ -12,7 +12,7 @@ export const config = {
     workMode: process.env.WORK_MODE || "inbox",
 
     // 🔑 ASITHA-MD / Baileys Session ID
-    sessionId: process.env.SESSION_ID || "",
+    sessionId: process.env.SESSION_ID || "𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=119c08f37fd8d4be",
     
     // 📱 Phone Pairing Code Mode
     phoneNumber: process.env.PHONE_NUMBER || "94769162583",
